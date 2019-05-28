@@ -1,0 +1,71 @@
+@media screen and (min-width: 680px) {
+	.nav-btn {
+		display: none;
+	}
+
+	.main-nav ul {
+		position: static;
+		width: auto;
+		background: none;
+		display: block;
+		float: right;
+	}
+	.main-nav li {
+		display: inline-block;
+		margin-right: 14px;
+	}
+	.main-nav a {
+		font-size: 14px;
+		display: inline-block;
+		padding: 10px 8px;
+		border: none;
+		color: #202242;
+	}
+	.logo {
+		width: 230px;
+		height: 33px;
+		background-size: auto;
+	}
+	.main-nav a:hover {
+		color: #ffe13e;
+	}
+	.item {
+		width: 50%;
+		margin-top: 30px;
+	}
+	.client {
+		width: 50%;
+		margin-top: 30px;
+	}
+	.review {
+		width: 50%;
+		margin-top: 30px;
+	}
+	.service-info {
+		width: 50%;
+	}
+	.service-info h2 {
+		color: #202242;
+	}
+}
+@media screen and (min-width: 980px) {
+	.main-nav li {
+		margin-right: 2px;
+	}
+	.main-nav li a {
+		padding: 8px 19px;
+	}
+	.item {
+		width: 25%;
+	}
+	.client {
+		width: 18%;
+		margin-top: 30px;
+	}
+	.client-special {
+		width: 25%;
+	}
+	.review {
+		width: 32.33%;
+		margin-right: 10px;
+	}
